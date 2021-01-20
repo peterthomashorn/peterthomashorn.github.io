@@ -1,0 +1,42 @@
+body {
+    background-color: #1a1a1a;
+    color: #c0c0c0;
+    font-family: ui-monospace, "Fira Mono", Menlo, Consolas, monospace;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 4rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+a, a:active, a:focus, a:visited {
+    color: white;
+}
+
+.wrap {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+.gutter {
+    margin: 0 0.5rem;
+}
+
+.footer {
+    font-size: 80%;
+    color: #606060;
+}
+
+.footer p {
+    margin-top: 4rem;
+}
